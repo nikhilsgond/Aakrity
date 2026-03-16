@@ -40,3 +40,4 @@ Thumbs.db
 # Testing
 coverage
 vitest-report
+frontend/tests
