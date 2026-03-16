@@ -59,7 +59,7 @@ const localOriginMatchers = [
 ];
 
 const isAllowedOrigin = (origin) => {
-  if (!origin) return false;
+  if (!origin) return true;
   if (allowedOrigins.includes(origin)) return true;
   return localOriginMatchers.some((pattern) => pattern.test(origin));
 };
