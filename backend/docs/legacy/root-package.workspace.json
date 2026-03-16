@@ -1,0 +1,19 @@
+{
+  "name": "collab-draw-v2-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm.cmd --prefix frontend run dev",
+    "build": "npm.cmd --prefix frontend run build",
+    "preview": "npm.cmd --prefix frontend run preview",
+    "server": "npm.cmd --prefix backend run start",
+    "server:dev": "npm.cmd --prefix backend run dev",
+    "dev:full": "node scripts/dev-full.mjs",
+    "test": "npm.cmd --prefix frontend run test",
+    "test:watch": "npm.cmd --prefix frontend run test:watch"
+  }
+}
